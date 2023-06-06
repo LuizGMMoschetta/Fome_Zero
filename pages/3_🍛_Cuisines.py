@@ -97,19 +97,6 @@ COLORS = {
 def color_name(color_code):
     return COLORS[color_code]
 
-def rename_columns(dataframe):
-    df = dataframe.copy()
-    title = lambda x: inflection.titleize(x)
-    snakecase = lambda x: inflection.underscore(x)
-    spaces = lambda x: x.replace(" ", "")
-    cols_old = list(df.columns)
-    cols_old = list(map(title, cols_old))
-    cols_old = list(map(spaces, cols_old))
-    cols_new = list(map(snakecase, cols_old))
-    df.columns = cols_new
-    
-    return df
-
 def clean_code(df):
     # categorizando a coluna Cuisines
     df.loc[:,'Cuisines'] = df.loc[:,'Cuisines'].astype( str )
