@@ -118,6 +118,6 @@ Seu trabalho é utilizar os dados que a empresa Fome Zero possui e responder as 
 	De ambas as visões é possivel visualizar todas as principais metricas da situação atual do Marketplace.
 
 ## 7. Proximos passos
-	1. Criar mais filtros em ambas as visões para visualizar as metricas com pais detalhes.
-	2. adicionar futuramente os top 3 insight de dados de uma maneira que seja mais facilmente compreendido.
+	1. Criar mais filtros em ambas as visões para visualizar as metricas com mais detalhes.
+	2. adicionar futuramente os top 3 insight de dados, de uma maneira que seja mais facilmente compreendido.
 	3. reduzir o numero de metricas.
