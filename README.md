@@ -1,6 +1,6 @@
 ## 1. Problema de Negocio
 
-Você acaba de ser contratado como Cientista de Dados da empresa Fome Zero, e a sua principal tarefa nesse momento é ajudar o CEO Kleiton Guerra a identificar pontos chaves da empresa, respondendo às perguntas que ele fizer utilizando dados!
+Este projeto se trata de uma empresa fictícia com o intúito de aplicar os conhecimentos adquiridos durante o Curso de Analise de Dados com Python na Comunidade de DS. 
 
 A empresa Fome Zero é uma marketplace de restaurantes. Ou seja, seu core business é facilitar o encontro e negociações de clientes e restaurantes. Os restaurantes fazem o cadastro dentro da plataforma da Fome Zero, que disponibiliza informações como endereço, tipo de culinária servida, se possui reservas, se faz entregas e também uma nota de avaliação dos serviços e produtos do restaurante, dentre outras informações.
 
@@ -115,7 +115,7 @@ Seu trabalho é utilizar os dados que a empresa Fome Zero possui e responder as 
 ## 6. Objetivo
 	O objetive desse projeto é criar um conjunto grafico que exibam as metricas da melhor forma possivel
 	para o CEO da empresa.
-	De ambas as visões é possivel visualizar todas as principais metricas da situação atual do WebService.
+	De ambas as visões é possivel visualizar todas as principais metricas da situação atual do Marketplace.
 
 ## 7. Proximos passos
 	1. Criar mais filtros em ambas as visões para visualizar as metricas com pais detalhes.
