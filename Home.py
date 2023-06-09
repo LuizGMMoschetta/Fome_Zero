@@ -104,6 +104,12 @@ def clean_code(df):
     #retirando as informações vazias
     linhas_vazias = df['Cuisines'] != 'nan'
     df = df.loc[linhas_vazias, :]
+    df = df.loc[df['Restaurant ID'].notnull(),:]
+    df = df.loc[df['Restaurant Name'].notnull(),:]
+    df = df.loc[df['Cuisines'].notnull(),:]
+    df = df.drop_duplicates()
+    df = df.dropna(axis=0,how="any",inplace=False)
+    df = df.dropna(axis=1,how="any",inplace=False)
     
     return df
 
