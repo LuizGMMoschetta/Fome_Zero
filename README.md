@@ -111,6 +111,7 @@ Seu trabalho é utilizar os dados que a empresa Fome Zero possui e responder as 
 	O painel é online hospedado em Cloud e disponivel para acesso em qualquer dispositivo conectado a internet
 	
 	O Painel pode ser acessado atraves desse link: https://luizmoschetta-fome-zero.streamlit.app/
+ 	OBS: selecione a opção "Yes" e aguarde a pagina carregar
 
 ## 6. Objetivo
 	O objetive desse projeto é criar um conjunto grafico que exibam as metricas da melhor forma possivel
